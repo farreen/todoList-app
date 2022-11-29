@@ -3,15 +3,11 @@ import React from "react";
 import "../App.css";
 
 type PropsType = {
-    todoName: string;
-}
+  todoName: string;
+};
 
-const Item = ({todoName}: PropsType) => {
-    return (
-        <div>
-            {todoName}
-        </div>
-    )
-}
+const Item = ({ todoName }: PropsType) => {
+  return <div>{todoName}</div>;
+};
 
 export default Item;
